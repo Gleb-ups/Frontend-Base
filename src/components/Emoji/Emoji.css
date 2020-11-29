@@ -4,9 +4,16 @@
     font-weight: 500;
     font-size: 205px;
     margin: 0;
+    line-height: 240px;
     color: #000000;
     align-self: flex-start;
-    animation: rotate infinite;
+    animation: rocketAnim infinite;
     animation-duration: 7s;
     animation-delay: 2s;
+}
+
+@keyframes rocketAnim {
+    50% {
+        transform: rotateY(180deg);
+    }
 }

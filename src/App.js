@@ -7,11 +7,13 @@ import JinguLogo from "./components/JinguLogo/index";
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <NameText/>
-                <JinguLogo/>
-                <Emoji/>
-            </div>
+            <React.Fragment>
+                <div className="App">
+                    <NameText/>
+                    <JinguLogo/>
+                    <Emoji/>
+                </div>
+            </React.Fragment>
         );
     }
 }

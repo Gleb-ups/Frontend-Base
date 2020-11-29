@@ -1,7 +1,7 @@
 .App {
     padding: 50px 200px 0 200px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     display: grid;
     box-sizing: border-box;
     grid-auto-columns: 1fr 1fr;
@@ -13,22 +13,7 @@
     "Emoji ."
 }
 
-/*@media (prefers-reduced-motion: no-preference) {*/
-/*  .App-logo {*/
-/*    animation: App-logo-spin infinite 20s linear;*/
-/*  }*/
-/*}*/
-
-/*@keyframes App-logo-spin {*/
-/*  from {*/
-/*    transform: rotate(0deg);*/
-/*  }*/
-/*  to {*/
-/*    transform: rotate(360deg);*/
-/*  }*/
-/*}*/
-
-@media only screen and (max-width: 640px) {
+@media (max-width: 1000px) {
     .App {
         padding: 0;
         min-height: 100%;
@@ -36,7 +21,7 @@
         flex: 1;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         box-sizing: unset;
         grid-auto-columns: 1fr 1fr 1fr;
     }
@@ -59,12 +44,5 @@
     .Emoji {
         font-size: 80px;
         order: 3;
-    }
-}
-
-
-@keyframes rotate {
-    50% {
-        transform: rotateY(180deg);
     }
 }

@@ -4,7 +4,7 @@ import './Emoji.css';
 class Emoji extends Component {
     render() {
         return (
-            <div style={{backgroundColor: '#000000'}}>
+            <div>
                 <p className="Emoji">🚀</p>
             </div>
         );
