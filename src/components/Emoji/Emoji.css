@@ -1,0 +1,12 @@
+.Emoji {
+    grid-area: Emoji;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 205px;
+    margin: 0;
+    color: #000000;
+    align-self: flex-start;
+    animation: rotate infinite;
+    animation-duration: 7s;
+    animation-delay: 2s;
+}

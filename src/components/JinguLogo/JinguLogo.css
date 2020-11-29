@@ -1,0 +1,8 @@
+.JinguLogo {
+    grid-area: JinguLogo;
+    height: 210px;
+    border-radius: 50%;
+    min-height: 50px;
+    justify-self: center;
+    color: #191919;
+}

@@ -1,0 +1,13 @@
+.NameText {
+    /*!*margin-top: 10%;*!*/
+    /*!*margin-left: 13%;*!*/
+    grid-area: NameText;
+    font-size: 115px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 135px;
+    margin: 0;
+    color: #000000;
+    text-align: center;
+}
